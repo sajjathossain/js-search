@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Search</title>
+
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="input-container">
+      <input type="text" name="" id="input" placeholder="Search" autocomplete="false"/>
+      <select class="select" name="" >
+        <option value="none" disabled>Choose One</option>
+        <option defaultValue="ID">ID</option>
+        <option value="First Name">First Name</option>
+        <option value="Last Name">Last Name</option>
+        <option value="Email">Email</option>
+        <option value="Phone">Phone</option>
+        <option value="City">City</option>
+        <option value="Country">Country</option>
+        <option value="Skill">Skill</option>
+      </select>
+    </div>
+    <table id="output-container">
+      <thead>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>City</th>
+        <th>Coutry</th>
+        <th>Skill</th>
+      </thead>
+      <tbody class="outputField">
+
+      </tbody>
+    </table>
+  </div>
+  <script src="./src/js/index.js" type="module" ></script>
+</body>
+</html>
