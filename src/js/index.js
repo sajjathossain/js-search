@@ -1,6 +1,8 @@
 "use strict"
-import db from '/db.json' assert { type: "json" }
+//import db from '/db.json' assert { type: "json" }
 // console.table(db);
+import db from '../../db.js'
+
 const outputContainer = document.querySelector("#output-container")
 const outputField = document.querySelector(".outputField")
 const input = document.querySelector("#input")
